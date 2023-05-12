@@ -1,0 +1,17 @@
+{
+  "name": "@xuexi/react",
+  "version": "18.2.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learnfor11/react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/learnfor11/react/issues"
+  },
+  "homepage": "https://github.com/learnfor11/react#readme"
+}

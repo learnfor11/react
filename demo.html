@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <title>学习</title>
+  </head>
+  <body>
+    <div id="app-root"></div>
+
+    <!-- 生产环境
+    <script type="importmap">
+      {
+        "imports": {
+          "@ppzp/utils.rc": "https://unpkg.com/@ppzp/utils.rc",
+          "react": "./react.production.min.js",
+          "react-dom": "./react-dom.production.min.js"
+        }
+      }
+    </script>
+    -->
+    
+    <!-- 开发环境 -->
+    <script type="importmap">
+      {
+        "imports": {
+          "@ppzp/utils.rc": "https://unpkg.com/@ppzp/utils.rc",
+          "react": "./react.development.js",
+          "react-dom": "./react-dom.development.js"
+        }
+      }
+    </script>
+    
+    <script type="module">
+      import React from 'react'
+      import ReactDOM from 'react-dom'
+      import { $ } from '@ppzp/utils.rc'
+
+      function App() {
+        return $.div('haha!')
+      }
+
+      const app_root = ReactDOM.createRoot(document.getElementById('app-root'))
+      app_root.render($(App))
+    </script>
+  </body>
+</html>
