@@ -14,5 +14,6 @@ export const useLayoutEffect = React.useLayoutEffect
 export const useMemo = React.useMemo
 export const useRef = React.useRef
 export const useState = React.useState
+export const useSyncExternalStore = React.useSyncExternalStore
 
 export default React
